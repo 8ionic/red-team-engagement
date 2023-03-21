@@ -249,13 +249,11 @@ Minimum details that cells should include into the plan:
 | Engagement Breakdown | - |
 | -Use the email address list found from osint to craft a spearphishing target wordlist. Use the mshta payload found in our internal repositories. Consult leads for help using domain generation algorithms with spearphishing. Phishing campaign will last from 10/13/2021-10/23/2021. Report success rate to team leads to submit to vectr.io. -Consult with team lead and use tooling found in internal repository to maintain access and setup needed tool infrastructure | - |
 | Targets | Execution Variants |
-| • External Targets
-    1. BEAN-MAIL
-    2. BEAN-PROD
-    3. bethebean.com
-    4. 10.10.6.29
-• Internal Targets
-    1. Determine internal targets with team leads after initial access | • In the event of any varying events throughout the engagement, immediately contact a team lead and disuss how to continue. |
+| --- | --- |
+| External Targets | - | 
+| -BEAN-MAIL -BEAN-PROD -bethebean.com -10.10.6.29 | - |
+| Internal Targets | - |
+| Determine internal targets with team leads after initial access | In the event of any varying events throughout the engagement, immediately contact a team lead and disuss how to continue. |
 
 *this is a brief concept: 
 

@@ -193,8 +193,7 @@ Based on customer security posture and maturity, the TTPof the threat group: FI
 | 1. One Red Cell Lead(s) | 2. One Red Cell Assistant Lead(s) |
 | 3. Three Red Cell Operators | 1. No hardware is required for this engagement, all machine resources will be allocated to the cloud |
 | Cloud Requirements | Misc. Requirements |
-| 1. Red Cell will send expense report of cloud costs to client after engagement
-    2. Red Cell is requesting a budget of $1000 for AWS cloud costs | 1. No other requirements are currently projected |
+| 1. Red Cell will send expense report of cloud costs to client after engagement 2. Red Cell is requesting a budget of $1000 for AWS cloud costs | 1. No other requirements are currently projected |
 
 ## Operations Plan:
 
@@ -221,19 +220,11 @@ Based on customer security posture and maturity, the TTPof the threat group: FI
 | RED CELL LEAD: Cryillic ENGAGEMENT DATES: 10/12/21 - 11/12/21 | ASST CELL LEAD: Simpuki CLIENT POC: Bean Enterprises |
 | --- | --- |
 | Engagement Objectives | - |
-| 1. Identify system misconfigurations and network weaknesses
-    2. Determine the effectiveness of endpoint detection and response systems
-    3. Evaluate overall security posture and response
-    4. Evaluate impact of data exposure and exfiltration | - |
+| -Identify system misconfigurations and network weaknesses -Determine the effectiveness of endpoint detection and response systems -Evaluate overall security posture and response -Evaluate impact of data exposure and exfiltration | - |
 | Halting/Stopping Conditions | Communications Plan |
-| 1. In the event of a system outage all engagement operations will cease
-    2. In the event of an operator being burnt, information will be kept on a need to know basis
-    3. In the event any evidence of an actual attack is found all operations will cease and an investigation will begin | Throughout the engagement the red cell will utilize vectr.io to communicate internally and with the client: "Bean Enterprises". The client will be given a daily update on the engagement and debriefed on progress and occurences. If any stopping conditions are encountered the red cell will consult with the client immediately upon discovery. Contact information for all teams and cells and members of the engagement can be found within the ROE document. |
+| -In the event of a system outage all engagement operations will cease -In the event of an operator being burnt, information will be kept on a need to know basis -In the event any evidence of an actual attack is found all operations will cease and an investigation will begin | Throughout the engagement the red cell will utilize vectr.io to communicate internally and with the client: "Bean Enterprises". The client will be given a daily update on the engagement and debriefed on progress and occurences. If any stopping conditions are encountered the red cell will consult with the client immediately upon discovery. Contact information for all teams and cells and members of the engagement can be found within the ROE document. |
 | Planned TTPs and Attacks | - |
-| 1. Due to the discovery of email addresses in the reconnaissance phase, spearphishing via mshta and typosquatted domains will be employed in the initial access phase.
-    2. To assess detection capabilites the red cell will employ process masquerading and signed binary proxy execution.
-    3. To sustain the engagement the red cell will employ the use of C2 infrastructure through HTTP/HTTPS protocols, data encoding, and ingress tools.
-    4. To keep C2 domains and infrastructure alive domain generation algorithms will be employed during initial access and persistence. | - |
+| -Due to the discovery of email addresses in the reconnaissance phase, spearphishing via mshta and typosquatted domains will be employed in the initial access pha -To assess detection capabilites the red cell will employ process masquerading and signed binary proxy executi -To sustain the engagement the red cell will employ the use of C2 infrastructure through HTTP/HTTPS protocols, data encoding, and ingress too -To keep C2 domains and infrastructure alive domain generation algorithms will be employed during initial access and persistence. | - |
 
 ## Mission plan:
 
@@ -254,13 +245,9 @@ Minimum details that cells should include into the plan:
 | RED CELL LEAD: Cryillic ENGAGEMENT DATES: 10/12/21 - 11/12/21 | ASST CELL LEAD: Simpuki CLIENT POC: Bean Enterprises |
 | --- | --- |
 | Engagement Objectives | - |
-| 1. Identify system misconfigurations and network weaknesses
-2. Determine the effectiveness of endpoint detection and response systems
-3. Evaluate overall security posture and response
-4. Evaluate impact of data exposure and exfiltration | - |
+| -Identify system misconfigurations and network weaknesses -Determine the effectiveness of endpoint detection and response systems -Evaluate overall security posture and response -Evaluate impact of data exposure and exfiltration | - |
 | Engagement Breakdown | - |
-| 1. Use the email address list found from osint to craft a spearphishing target wordlist. Use the mshta payload found in our internal repositories. Consult leads for help using domain generation algorithms with spearphishing. Phishing campaign will last from 10/13/2021-10/23/2021. Report success rate to team leads to submit to vectr.io.
-2. Consult with team lead and use tooling found in internal repository to maintain access and setup needed tool infrastructure | - |
+| -Use the email address list found from osint to craft a spearphishing target wordlist. Use the mshta payload found in our internal repositories. Consult leads for help using domain generation algorithms with spearphishing. Phishing campaign will last from 10/13/2021-10/23/2021. Report success rate to team leads to submit to vectr.io. -Consult with team lead and use tooling found in internal repository to maintain access and setup needed tool infrastructure | - |
 | Targets | Execution Variants |
 | • External Targets
     1. BEAN-MAIL

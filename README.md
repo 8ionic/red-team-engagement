@@ -109,32 +109,32 @@ Example 1 - Global Enterprises:
 The Rules of Engagement (ROE) document the approvals, authorizations, and critical implementation issues necessary to execute the engagement. Signing of the ROE constitutes acknowledgement and approval of the customer, system owner, and Red Team of the Red Team’s authorities in execution of the engagement.
 
 **The objectives include:**
-• Monitor security posture and response
-      • Focus on internal systems and insider threats
-• Assess the response of the defense team
-• Assess ability to move laterally through internal infrastructure
-• Employ physical penetration testing to assess onsite security posture
+- Monitor security posture and response
+    - Focus on internal systems and insider threats
+- Assess the response of the defense team
+- Assess ability to move laterally through internal infrastructure
+- Employ physical penetration testing to assess onsite security posture
 
 **Explicit Restrictions:**
-• Use of white cards are strictly prohibited
-• Any form of DDoS or DoS is prohibited
-• Attacks against any system within 192.168.1.0/24 is prohibited
+- Use of white cards are strictly prohibited
+- Any form of DDoS or DoS is prohibited
+- Attacks against any system within 192.168.1.0/24 is prohibited
 
 **Authorized Target Space:**
 
-• 10.0.4.0/22
-• *.bethechange.xyz, *.globalenterprises.thm 
+- 10.0.4.0/22
+- *.bethechange.xyz, *.globalenterprises.thm 
 
 **Activities:**
-• Reconnaissance
-• Access Types
-• Phishing
-• Physical and social engineering
+- Reconnaissance
+- Access Types
+- Phishing
+- Physical and social engineering
 
-• Positioning
-• Assumed breach scenario
+- Positioning
+- Assumed breach scenario
 
-• Impact
+- Impact
 
 ## CONOPS
 
@@ -190,12 +190,11 @@ Based on customer security posture and maturity, the TTPof the threat group: FI
 | Execution Dates | Resource Summary |
 | Reconnaissance: 10/04/2021-10/14/2021Initial Access: 10/14/2021-10/24/2021Post-Exploitation and Persistence: 10/24/2021 - 11/14/2021Remeditation: TBDMiscellaneous: n/a | The red cell has requested the needed resources outlined in the following document.Any further resources needed by any teams or operators should create a revised resource plan and submit to the client representatives for approval. |
 | Personnel Requirements | Hardware Requirements |
-| 1. One Red Cell Lead(s)
-2. One Red Cell Assistant Lead(s)
-3. Three Red Cell Operators | 1. No hardware is required for this engagement, all machine resources will be allocated to the cloud |
+| 1. One Red Cell Lead(s) | 2. One Red Cell Assistant Lead(s) |
+| 3. Three Red Cell Operators | 1. No hardware is required for this engagement, all machine resources will be allocated to the cloud |
 | Cloud Requirements | Misc. Requirements |
 | 1. Red Cell will send expense report of cloud costs to client after engagement
-2. Red Cell is requesting a budget of $1000 for AWS cloud costs | 1. No other requirements are currently projected |
+    2. Red Cell is requesting a budget of $1000 for AWS cloud costs | 1. No other requirements are currently projected |
 
 ## Operations Plan:
 
@@ -223,18 +222,18 @@ Based on customer security posture and maturity, the TTPof the threat group: FI
 | --- | --- |
 | Engagement Objectives | - |
 | 1. Identify system misconfigurations and network weaknesses
-2. Determine the effectiveness of endpoint detection and response systems
-3. Evaluate overall security posture and response
-4. Evaluate impact of data exposure and exfiltration | - |
+    2. Determine the effectiveness of endpoint detection and response systems
+    3. Evaluate overall security posture and response
+    4. Evaluate impact of data exposure and exfiltration | - |
 | Halting/Stopping Conditions | Communications Plan |
 | 1. In the event of a system outage all engagement operations will cease
-2. In the event of an operator being burnt, information will be kept on a need to know basis
-3. In the event any evidence of an actual attack is found all operations will cease and an investigation will begin | Throughout the engagement the red cell will utilize vectr.io to communicate internally and with the client: "Bean Enterprises". The client will be given a daily update on the engagement and debriefed on progress and occurences. If any stopping conditions are encountered the red cell will consult with the client immediately upon discovery. Contact information for all teams and cells and members of the engagement can be found within the ROE document. |
+    2. In the event of an operator being burnt, information will be kept on a need to know basis
+    3. In the event any evidence of an actual attack is found all operations will cease and an investigation will begin | Throughout the engagement the red cell will utilize vectr.io to communicate internally and with the client: "Bean Enterprises". The client will be given a daily update on the engagement and debriefed on progress and occurences. If any stopping conditions are encountered the red cell will consult with the client immediately upon discovery. Contact information for all teams and cells and members of the engagement can be found within the ROE document. |
 | Planned TTPs and Attacks | - |
 | 1. Due to the discovery of email addresses in the reconnaissance phase, spearphishing via mshta and typosquatted domains will be employed in the initial access phase.
-2. To assess detection capabilites the red cell will employ process masquerading and signed binary proxy execution.
-3. To sustain the engagement the red cell will employ the use of C2 infrastructure through HTTP/HTTPS protocols, data encoding, and ingress tools.
-4. To keep C2 domains and infrastructure alive domain generation algorithms will be employed during initial access and persistence. | - |
+    2. To assess detection capabilites the red cell will employ process masquerading and signed binary proxy execution.
+    3. To sustain the engagement the red cell will employ the use of C2 infrastructure through HTTP/HTTPS protocols, data encoding, and ingress tools.
+    4. To keep C2 domains and infrastructure alive domain generation algorithms will be employed during initial access and persistence. | - |
 
 ## Mission plan:
 
